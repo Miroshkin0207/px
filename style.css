@@ -7,6 +7,10 @@ h1 {
     text-align: center
 }
 
+h2 {
+    text-align: center
+}
+
 #hub {
     color: black;
     background-color: orangered;
@@ -22,8 +26,7 @@ h1 {
     transform: translateX(-50%)
 }
 
-@media (min-width: 1000px)
-{
+@media (min-width: 1000px) {
     .buttons {
         width: 70px;
         height: 100px
@@ -36,5 +39,21 @@ h1 {
     #photo {
         width: 500px;
         height: 500px
+    }
+}
+
+@media (max-width: 999px) {
+    .buttons {
+        width: 45px;
+        height: 30px
+    }
+
+    button {
+        margin: 20px
+    }
+
+    #photo {
+        width: 200px;
+        height: 200px
     }
 }
