@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: white
+}
+
+h1 {
+    text-align: center
+}
+
+#hub {
+    color: black;
+    background-color: orangered;
+    border-radius: 20px;
+    padding: 5px
+}
+
+.photos {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+@media (min-width: 1000px)
+{
+    .buttons {
+        width: 70px;
+        height: 100px
+    }
+
+    button {
+        margin: 20px
+    }
+
+    #photo {
+        width: 500px;
+        height: 500px
+    }
+}
