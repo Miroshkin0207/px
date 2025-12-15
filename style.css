@@ -51,7 +51,10 @@ h1 {
 
 @media (max-width: 999px) {
     h2 {
-        font-size: 24px
+        font-size: 24px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%)
     }
     
     .buttons {
@@ -74,9 +77,6 @@ h1 {
     }
     
     #score {
-        position: absolute;
-        bottom: 15%;
-        left: 50%;
-        transform: translateX(-50%)
+        bottom: 15%
     }
 }
