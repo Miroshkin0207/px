@@ -1,5 +1,5 @@
-currentPhoto = 1
-var photo = document.querySelector("#photo")
+let currentPhoto = 1
+const photo = document.querySelector("#photo")
 
 function left() {
     if (currentPhoto != 1) {
@@ -9,7 +9,6 @@ function left() {
         currentPhoto = 22
     }
     photo.src = `photos/photo_${currentPhoto}_2025-09-23_20-06-03.jpg`
-    console.log(photo.src)
 }
 
 function right() {
@@ -20,5 +19,8 @@ function right() {
         currentPhoto = 1
     }
     photo.src = `photos/photo_${currentPhoto}_2025-09-23_20-06-03.jpg`
-    console.log(photo.src)
+}
+const score = document.querySelector("#score")
+function tap() {
+    Number(score.innerHTML)++
 }
