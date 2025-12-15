@@ -21,7 +21,7 @@ function right() {
     photo.src = `photos/photo_${currentPhoto}_2025-09-23_20-06-03.jpg`
 }
 const score = document.querySelector("#score")
-photo.touchStart = "scoreUp()"
+photo.addEventListener("touchstart", () => scoreUp())
 function scoreUp() {
     score.innerHTML++
 }
