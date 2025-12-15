@@ -21,6 +21,7 @@ function right() {
     photo.src = `photos/photo_${currentPhoto}_2025-09-23_20-06-03.jpg`
 }
 const score = document.querySelector("#score")
+score.touchStart = "scoreUp()"
 function scoreUp() {
     score.innerHTML++
 }
