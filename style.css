@@ -43,6 +43,13 @@ h2 {
         width: 500px;
         height: 500px
     }
+
+    #score {
+        position: absolute;
+        bottom: 25%;
+        left: 50%;
+        transform: translateX(-50%)
+    }
 }
 
 @media (max-width: 999px) {
@@ -70,6 +77,8 @@ h2 {
     }
     #score {
         position: absolute;
-        bottom: 15%
+        bottom: 15%;
+        left: 50%;
+        transform: translateX(-50%)
     }
 }
