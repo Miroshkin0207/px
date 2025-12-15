@@ -22,5 +22,5 @@ function right() {
 }
 const score = document.querySelector("#score")
 function tap() {
-    Number(score.innerHTML)++
+    score.innerHTML++
 }
